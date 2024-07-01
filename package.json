@@ -7,6 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint && stylelint **/*.{css,scss}",
 		"lint:fix": "eslint --fix && stylelint **/*.{css,scss} --fix",
+		"formatting": "prettier --write .",
 		"prepare": "husky"
 	},
 	"author": "G@urav M@ll",
