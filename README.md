@@ -41,5 +41,25 @@ Do npm install in your project so that required packages can be installed.
 
 #### 4. Running
 
-Once everything is in place and once you've made any changes to scss/css/js/ts then on trying to commit those files the linting will be triggered.    
+Once everything is in place and once you've made any changes to scss/css/js/ts then on trying to commit those files the linting will be triggered. 
+On the other hand you can run below scripts separately before staging and committing the files.
+```
+npm run lint // for identifying linting issues    
 
+npm run lint:fix // for fixing the issues fixable by linting tool     
+
+npm run formatting // for formatting the code
+```   
+
+------------
+
+#### 5. Help Notes
+
+**How to Ignore rules in Stylint?**
+https://stylelint.io/user-guide/ignore-code/
+     
+**How to Ignore rules in ESLint**
+https://tinyurl.com/helpeslint
+   
+**How to Ignore formatting**
+https://prettier.io/docs/en/ignore.html
