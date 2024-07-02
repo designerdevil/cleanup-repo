@@ -12,6 +12,10 @@
 	},
 	"author": "G@urav M@ll",
 	"license": "ISC",
+	"engines": {
+		"npm": ">=10.7.0",
+		"node": ">=20.14.0"
+	},
 	"devDependencies": {
 		"@eslint/js": "^9.6.0",
 		"eslint": "^9.6.0",
